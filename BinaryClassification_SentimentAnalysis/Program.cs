@@ -131,6 +131,8 @@ namespace BinaryClassification_SentimentAnalysis
             UseModelWithSingleItem(mlContext, model);
 
             UseModelWithBatchItems(mlContext, model);
+
+            Console.ReadKey();
         }
     }
 }
