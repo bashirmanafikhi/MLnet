@@ -11,7 +11,7 @@ using Microsoft.ML.Transforms.Text;
 namespace BinaryClassification_SentimentAnalysis
 {
     class Program
-    {
+    { 
 
         static readonly string _dataPath = Path.Combine(Environment.CurrentDirectory, "Data", "yelp_labelled.txt");
 
