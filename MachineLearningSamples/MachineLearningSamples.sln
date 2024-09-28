@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHubIssueClassification",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxiFarePrediction", "TaxiFarePrediction\TaxiFarePrediction.csproj", "{AD71CC84-B153-405A-B8A4-C2779EE2B440}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IrisFlowerClustering", "IrisFlowerClustering\IrisFlowerClustering.csproj", "{7C524F3F-CF90-49AA-8107-BEA39188185E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{AD71CC84-B153-405A-B8A4-C2779EE2B440}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD71CC84-B153-405A-B8A4-C2779EE2B440}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD71CC84-B153-405A-B8A4-C2779EE2B440}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C524F3F-CF90-49AA-8107-BEA39188185E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C524F3F-CF90-49AA-8107-BEA39188185E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C524F3F-CF90-49AA-8107-BEA39188185E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C524F3F-CF90-49AA-8107-BEA39188185E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
