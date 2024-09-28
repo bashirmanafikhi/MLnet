@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SentimentAnalysis", "SentimentAnalysis\SentimentAnalysis.csproj", "{9798B91A-23F1-4640-96FC-86CF0F76222E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SentimentAnalysis", "SentimentAnalysis\SentimentAnalysis.csproj", "{9798B91A-23F1-4640-96FC-86CF0F76222E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloMLWorld", "HelloMLWorld\HelloMLWorld.csproj", "{06F9FC94-4C77-4144-A488-495948A751F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloMLWorld", "HelloMLWorld\HelloMLWorld.csproj", "{06F9FC94-4C77-4144-A488-495948A751F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHubIssueClassification", "GitHubIssueClassification\GitHubIssueClassification.csproj", "{0F4B00E0-AD98-417B-850E-8C4A8BFDE59C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{06F9FC94-4C77-4144-A488-495948A751F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06F9FC94-4C77-4144-A488-495948A751F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06F9FC94-4C77-4144-A488-495948A751F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F4B00E0-AD98-417B-850E-8C4A8BFDE59C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F4B00E0-AD98-417B-850E-8C4A8BFDE59C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F4B00E0-AD98-417B-850E-8C4A8BFDE59C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F4B00E0-AD98-417B-850E-8C4A8BFDE59C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
