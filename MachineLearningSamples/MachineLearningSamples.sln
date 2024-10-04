@@ -7,13 +7,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SentimentAnalysis", "Sentim
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloMLWorld", "HelloMLWorld\HelloMLWorld.csproj", "{06F9FC94-4C77-4144-A488-495948A751F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHubIssueClassification", "GitHubIssueClassification\GitHubIssueClassification.csproj", "{0F4B00E0-AD98-417B-850E-8C4A8BFDE59C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GitHubIssueClassification", "GitHubIssueClassification\GitHubIssueClassification.csproj", "{0F4B00E0-AD98-417B-850E-8C4A8BFDE59C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxiFarePrediction", "TaxiFarePrediction\TaxiFarePrediction.csproj", "{AD71CC84-B153-405A-B8A4-C2779EE2B440}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaxiFarePrediction", "TaxiFarePrediction\TaxiFarePrediction.csproj", "{AD71CC84-B153-405A-B8A4-C2779EE2B440}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IrisFlowerClustering", "IrisFlowerClustering\IrisFlowerClustering.csproj", "{7C524F3F-CF90-49AA-8107-BEA39188185E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IrisFlowerClustering", "IrisFlowerClustering\IrisFlowerClustering.csproj", "{7C524F3F-CF90-49AA-8107-BEA39188185E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieRecommendation", "MovieRecommendation\MovieRecommendation.csproj", "{37BD06AE-988D-4350-9FFF-B50D96B68C0A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieRecommendation", "MovieRecommendation\MovieRecommendation.csproj", "{37BD06AE-988D-4350-9FFF-B50D96B68C0A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhoneCallsAnomalyDetection", "PhoneCallsAnomalyDetection\PhoneCallsAnomalyDetection.csproj", "{76FECED5-6EDD-425C-B8DF-23D33716666E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductSalesAnomalyDetection", "ProductSalesAnomalyDetection\ProductSalesAnomalyDetection.csproj", "{1B37F9C8-3D35-4040-9815-86F765E48B7D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TextClassificationTF", "TextClassificationTF\TextClassificationTF.csproj", "{AE572E8B-8979-44A3-8CF2-6EADFDBB5D8E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TransferLearningTF", "TransferLearningTF\TransferLearningTF.csproj", "{DEA6AB65-4B57-4B00-B916-9AD4D8A45E7A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +53,22 @@ Global
 		{37BD06AE-988D-4350-9FFF-B50D96B68C0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37BD06AE-988D-4350-9FFF-B50D96B68C0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37BD06AE-988D-4350-9FFF-B50D96B68C0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76FECED5-6EDD-425C-B8DF-23D33716666E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76FECED5-6EDD-425C-B8DF-23D33716666E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76FECED5-6EDD-425C-B8DF-23D33716666E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76FECED5-6EDD-425C-B8DF-23D33716666E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B37F9C8-3D35-4040-9815-86F765E48B7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B37F9C8-3D35-4040-9815-86F765E48B7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B37F9C8-3D35-4040-9815-86F765E48B7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B37F9C8-3D35-4040-9815-86F765E48B7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE572E8B-8979-44A3-8CF2-6EADFDBB5D8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE572E8B-8979-44A3-8CF2-6EADFDBB5D8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE572E8B-8979-44A3-8CF2-6EADFDBB5D8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE572E8B-8979-44A3-8CF2-6EADFDBB5D8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEA6AB65-4B57-4B00-B916-9AD4D8A45E7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEA6AB65-4B57-4B00-B916-9AD4D8A45E7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEA6AB65-4B57-4B00-B916-9AD4D8A45E7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEA6AB65-4B57-4B00-B916-9AD4D8A45E7A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
